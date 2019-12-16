@@ -1,0 +1,46 @@
+/*
+============================================
+; Title: WEB	450	Bob’s	Computer	Repair	Shop
+; Author: Ethan Townsend, Lea Trueworthy, Natasha Whitmer, and Jason Sullenger
+; Date: 17 October 2019
+; Description: End-to-end billing system for Bob's Computer - MEAN stack
+;===========================================
+*/
+
+h1 {
+  padding-top: 25px;
+  text-align: center;
+  color: #0D47A1;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 25%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: 'Permanent Marker', cursive;
+}
+
+mat-form-field {
+  width: 90%;
+  color: #000000;
+}
+
+button {
+  width: 75%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.error {
+  color: #D50000;
+  font-family: 'Permanent Marker', cursive;
+}
+
+a.hover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
